@@ -24,8 +24,8 @@ public class CoinComponent : DrawableGameComponent
     protected override void LoadContent()
     {
         spriteBatch = new SpriteBatch(GraphicsDevice);
-        coinCounterSpriteFont = Game.Content.Load<SpriteFont>("CoinCounter");
-        passiveIncomeSpriteFont = Game.Content.Load<SpriteFont>("PassiveIncome");
+        coinCounterSpriteFont = Game.Content.Load<SpriteFont>("SidePanel/CoinCounter");
+        passiveIncomeSpriteFont = Game.Content.Load<SpriteFont>("SidePanel/PassiveIncome");
     }
 
     public override void Draw(GameTime gameTime)

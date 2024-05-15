@@ -4,19 +4,39 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 1.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 2.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 3.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 4.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 5.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 6.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/CoinCounter.spritefont</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/flat ui interface.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/PassiveIncome.spritefont</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Room.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/text menu and coin.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/cake.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/globe.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedCake.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedGlobe.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedPC.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedPCGreen.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedSwitcher.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/pc.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/pcGreen.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/switcher.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/Room.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 1.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 2.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 3.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 4.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 5.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 6.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/CoinCounter.spritefont</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/flat ui interface.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/PassiveIncome.spritefont</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/text menu and coin.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

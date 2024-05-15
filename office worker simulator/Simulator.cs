@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
-//using office_worker_simulator.Components.Room;
+using office_worker_simulator.Components.Room;
 using office_worker_simulator.Components.SidePanel;
 using office_worker_simulator.Core.Services.SidePanel;
 using office_worker_simulator.Core.SidePanel.Items;
@@ -19,10 +19,11 @@ public class Simulator : Game
         IsMouseVisible = true;
 
         // Components
+        Components.Add(new RoomComponent(this));
         Components.Add(new SidePanelComponent(this));
         Components.Add(new ButtonComponent(this));
         Components.Add(new CoinComponent(this));
-        //Components.Add(new RoomComponent(this));
+        Components.Add(new InteractiveElementsComponent(this));
 
         // Services
         Services.AddService(new ButtonService());

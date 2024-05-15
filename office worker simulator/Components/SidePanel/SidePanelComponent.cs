@@ -17,8 +17,8 @@ public class SidePanelComponent : DrawableGameComponent
     protected override void LoadContent()
     {
         spriteBatch = new SpriteBatch(GraphicsDevice);
-        flatUIBackGroundTexture = Game.Content.Load<Texture2D>("flat ui interface");
-        textMenuAndCoinTexture = Game.Content.Load<Texture2D>("text menu and coin");
+        flatUIBackGroundTexture = Game.Content.Load<Texture2D>("SidePanel/flat ui interface");
+        textMenuAndCoinTexture = Game.Content.Load<Texture2D>("SidePanel/text menu and coin");
     }
     
     public override void Draw(GameTime gameTime)

@@ -32,12 +32,12 @@ public class ButtonComponent : DrawableGameComponent
     protected override void LoadContent()
     {
         spriteBatch = new SpriteBatch(GraphicsDevice);
-        button1Texture = Game.Content.Load<Texture2D>("button 1");
-        button2Texture = Game.Content.Load<Texture2D>("button 2");
-        button3Texture = Game.Content.Load<Texture2D>("button 3");
-        button4Texture = Game.Content.Load<Texture2D>("button 4");
-        button5Texture = Game.Content.Load<Texture2D>("button 5");
-        button6Texture = Game.Content.Load<Texture2D>("button 6");
+        button1Texture = Game.Content.Load<Texture2D>("SidePanel/button 1");
+        button2Texture = Game.Content.Load<Texture2D>("SidePanel/button 2");
+        button3Texture = Game.Content.Load<Texture2D>("SidePanel/button 3");
+        button4Texture = Game.Content.Load<Texture2D>("SidePanel/button 4");
+        button5Texture = Game.Content.Load<Texture2D>("SidePanel/button 5");
+        button6Texture = Game.Content.Load<Texture2D>("SidePanel/button 6");
 
         button1 = new Button1(Game.Services.GetService<CoinService>());
         button2 = new Button2(Game.Services.GetService<CoinService>());
