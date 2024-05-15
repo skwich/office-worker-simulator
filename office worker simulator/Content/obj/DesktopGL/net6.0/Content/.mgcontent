@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 1.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 2.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 3.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 4.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 5.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/button 6.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/CoinCounter.spritefont</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/flat ui interface.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/PassiveIncome.spritefont</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Room.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/text menu and coin.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
