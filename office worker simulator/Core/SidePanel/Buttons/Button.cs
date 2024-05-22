@@ -3,19 +3,21 @@ using office_worker_simulator.Core.Services.SidePanel;
 
 namespace office_worker_simulator.Core.SidePanel.Buttons;
 
-public abstract class Button
+public class Button
 {
     private bool IsLocked { get; set; }
-    public virtual int Price => 30;
-    protected virtual int PassiveIncome => 1;
+    public int Price { get; }
+    private int PassiveIncome { get; }
     private readonly CoinService coinService;
 
-    protected Button(CoinService coinService)
+    public Button(CoinService coinService, int price, int passiveIncome)
     {
         this.coinService = coinService;
+        Price = price;
+        PassiveIncome = passiveIncome;
     }
     
-    public virtual void BuyWorker()
+    public void BuyWorker()
     {
         IsLocked = coinService.Coin.CoinCounter >= Price;
         if (IsLocked)

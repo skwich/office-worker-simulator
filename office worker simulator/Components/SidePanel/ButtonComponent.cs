@@ -1,4 +1,3 @@
-using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -18,12 +17,12 @@ public class ButtonComponent : DrawableGameComponent
     private Texture2D button6Texture;
 
     private MouseState previousMouseState;
-    private Button1 button1;
-    private Button2 button2;
-    private Button3 button3;
-    private Button4 button4;
-    private Button5 button5;
-    private Button6 button6;
+    private Button button1;
+    private Button button2;
+    private Button button3;
+    private Button button4;
+    private Button button5;
+    private Button button6;
 
     public ButtonComponent(Game game) : base(game)
     {
@@ -39,12 +38,12 @@ public class ButtonComponent : DrawableGameComponent
         button5Texture = Game.Content.Load<Texture2D>("SidePanel/button 5");
         button6Texture = Game.Content.Load<Texture2D>("SidePanel/button 6");
 
-        button1 = new Button1(Game.Services.GetService<CoinService>());
-        button2 = new Button2(Game.Services.GetService<CoinService>());
-        button3 = new Button3(Game.Services.GetService<CoinService>());
-        button4 = new Button4(Game.Services.GetService<CoinService>());
-        button5 = new Button5(Game.Services.GetService<CoinService>());
-        button6 = new Button6(Game.Services.GetService<CoinService>());
+        button1 = new Button(Game.Services.GetService<CoinService>(), 30, 1);
+        button2 = new Button(Game.Services.GetService<CoinService>(), 65, 5);
+        button3 = new Button(Game.Services.GetService<CoinService>(), 175, 20);
+        button4 = new Button(Game.Services.GetService<CoinService>(), 300, 50);
+        button5 = new Button(Game.Services.GetService<CoinService>(), 500, 150);
+        button6 = new Button(Game.Services.GetService<CoinService>(), 7500, 1);
     }
 
     public override void Update(GameTime gameTime)

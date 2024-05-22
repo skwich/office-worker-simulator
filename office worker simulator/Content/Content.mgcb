@@ -13,7 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin MainGame/InteractiveElements/cake.png
+#begin Entity/Player/idle1.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -23,7 +23,31 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:MainGame/InteractiveElements/cake.png
+/build:Entity/Player/idle1.png
+
+#begin Entity/Player/idle2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Entity/Player/idle2.png
+
+#begin Entity/Player/idle3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Entity/Player/idle3.png
 
 #begin MainGame/InteractiveElements/cake.png
 /importer:TextureImporter
@@ -37,7 +61,7 @@
 /processorParam:TextureFormat=Color
 /build:MainGame/InteractiveElements/cake.png
 
-#begin MainGame/InteractiveElements/globe.png
+#begin MainGame/InteractiveElements/ExclamationMarks/exclamationMarkCake.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -47,7 +71,43 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:MainGame/InteractiveElements/globe.png
+/build:MainGame/InteractiveElements/ExclamationMarks/exclamationMarkCake.png
+
+#begin MainGame/InteractiveElements/ExclamationMarks/exclamationMarkGlobe.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:MainGame/InteractiveElements/ExclamationMarks/exclamationMarkGlobe.png
+
+#begin MainGame/InteractiveElements/ExclamationMarks/exclamationMarkPC.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:MainGame/InteractiveElements/ExclamationMarks/exclamationMarkPC.png
+
+#begin MainGame/InteractiveElements/ExclamationMarks/exclamationMarkSwitcher.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:MainGame/InteractiveElements/ExclamationMarks/exclamationMarkSwitcher.png
 
 #begin MainGame/InteractiveElements/globe.png
 /importer:TextureImporter
@@ -133,30 +193,6 @@
 /processorParam:TextureFormat=Color
 /build:MainGame/InteractiveElements/pc.png
 
-#begin MainGame/InteractiveElements/pc.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:MainGame/InteractiveElements/pc.png
-
-#begin MainGame/InteractiveElements/pcGreen.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:MainGame/InteractiveElements/pcGreen.png
-
 #begin MainGame/InteractiveElements/pcGreen.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -180,30 +216,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:MainGame/InteractiveElements/switcher.png
-
-#begin MainGame/InteractiveElements/switcher.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:MainGame/InteractiveElements/switcher.png
-
-#begin MainGame/Room.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:MainGame/Room.png
 
 #begin MainGame/Room.png
 /importer:TextureImporter

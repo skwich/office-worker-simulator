@@ -15,7 +15,7 @@ public class CoinComponent : DrawableGameComponent
     private SpriteFont passiveIncomeSpriteFont;
 
     private Vector2 counterPosition = new(410, 26);
-    private int lastUpdateTime;
+    private double lastUpdateTime;
 
     public CoinComponent(Game game) : base(game)
     {
@@ -55,18 +55,14 @@ public class CoinComponent : DrawableGameComponent
         var state = Keyboard.GetState();
 
         // DEBUG
-        if (state.IsKeyDown(Keys.Up))
-            coinService.AddCoins(1);
-        else if (state.IsKeyDown(Keys.Down))
-            coinService.AddCoins(-1);
-        else if (state.IsKeyDown(Keys.F1))
+        if (state.IsKeyDown(Keys.F1))
             coinService.AddCoins(1000);
 
         // Пассивный доход каждую секунду
-        if (gameTime.TotalGameTime.Seconds - lastUpdateTime >= 1)
+        if (gameTime.TotalGameTime.TotalSeconds - lastUpdateTime >= 1)
         {
             coinService.AddCoins(coin.ExtraCoins);
-            lastUpdateTime = gameTime.TotalGameTime.Seconds;
+            lastUpdateTime = gameTime.TotalGameTime.TotalSeconds;
         }
 
         counterPosition = coinService.Coin.CoinCounter switch

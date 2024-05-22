@@ -4,7 +4,14 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/idle1.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/idle2.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/idle3.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/cake.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/ExclamationMarks/exclamationMarkCake.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/ExclamationMarks/exclamationMarkGlobe.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/ExclamationMarks/exclamationMarkPC.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/ExclamationMarks/exclamationMarkSwitcher.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/globe.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedCake.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedGlobe.png</File>
@@ -27,6 +34,13 @@
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/text menu and coin.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

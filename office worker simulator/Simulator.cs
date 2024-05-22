@@ -1,7 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
+using office_worker_simulator.Components.Entity;
 using office_worker_simulator.Components.Room;
 using office_worker_simulator.Components.SidePanel;
+using office_worker_simulator.Core.Entity;
+using office_worker_simulator.Core.Services.Entity;
 using office_worker_simulator.Core.Services.SidePanel;
 using office_worker_simulator.Core.SidePanel.Items;
 using office_worker_simulator.Initialization;
@@ -23,12 +26,15 @@ public class Simulator : Game
         Components.Add(new SidePanelComponent(this));
         Components.Add(new ButtonComponent(this));
         Components.Add(new CoinComponent(this));
+        Components.Add(new PlayerComponent(this));
         Components.Add(new InteractiveElementsComponent(this));
 
         // Services
         Services.AddService(new ButtonService());
         Services.AddService(new Coin());
         Services.AddService(new CoinService(Services.GetService<Coin>()));
+        Services.AddService(new Player());
+        Services.AddService(new PlayerService(Services.GetService<Player>()));
     }
 
     protected override void Initialize()

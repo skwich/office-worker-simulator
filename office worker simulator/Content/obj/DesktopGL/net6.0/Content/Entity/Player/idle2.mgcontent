@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/Room.png</SourceFile>
-  <SourceTime>2024-05-22T13:10:57.7937049+05:00</SourceTime>
-  <DestFile>D:/urfu/c#/office worker simulator/office worker simulator/Content/bin/DesktopGL/Content/MainGame/Room.xnb</DestFile>
-  <DestTime>2024-05-22T13:11:05.1811122+05:00</DestTime>
+  <SourceFile>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/idle2.png</SourceFile>
+  <SourceTime>2024-05-15T19:20:50.9508748+05:00</SourceTime>
+  <DestFile>D:/urfu/c#/office worker simulator/office worker simulator/Content/bin/DesktopGL/Content/Entity/Player/idle2.xnb</DestFile>
+  <DestTime>2024-05-15T19:21:09.3190163+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
