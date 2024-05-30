@@ -74,7 +74,7 @@ public class ButtonComponent : DrawableGameComponent
                         buttonService.BuyWorker(button5);
                         break;
                     case >= 590 and <= 662:
-                        buttonService.BuyWorker(button6);
+                        Game.Exit();
                         break;
                 }
             }

@@ -1,7 +1,8 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
 using office_worker_simulator.Core.Entity;
+using office_worker_simulator.Core.Room;
+using office_worker_simulator.Core.Services.Room;
 
 namespace office_worker_simulator.Components.Room;
 
@@ -12,9 +13,6 @@ public class InteractiveElementsComponent : DrawableGameComponent
 	private Texture2D pcGreenTexture;
 	private Texture2D glowedPCTexture;
 	private Texture2D glowedPCGreenTexture;
-
-	private bool isPCNear;
-	private bool isPCGreenNear;
 
 	public InteractiveElementsComponent(Game game) : base(game)
 	{
@@ -32,18 +30,20 @@ public class InteractiveElementsComponent : DrawableGameComponent
 
 	public override void Draw(GameTime gameTime)
 	{
+		var items = Game.Services.GetService<InteractiveItems>();
+		
 		spriteBatch.Begin();
 
 		spriteBatch.Draw(
-			isPCNear ? glowedPCTexture : pcTexture,
-			isPCNear ? new Vector2(524, 601) : new Vector2(527, 604),
+			items.IsPCNear ? glowedPCTexture : pcTexture,
+			items.IsPCNear ? new Vector2(524, 601) : new Vector2(527, 604),
 			null,
 			Color.White
 		);
 
 		spriteBatch.Draw(
-			isPCGreenNear ? glowedPCGreenTexture : pcGreenTexture,
-			isPCGreenNear ? new Vector2(966, 601) : new Vector2(969, 604),
+			items.IsPCGreenNear ? glowedPCGreenTexture : pcGreenTexture,
+			items.IsPCGreenNear ? new Vector2(966, 601) : new Vector2(969, 604),
 			null,
 			Color.White
 		);
@@ -53,9 +53,9 @@ public class InteractiveElementsComponent : DrawableGameComponent
 
 	public override void Update(GameTime gameTime)
 	{
+		var items = Game.Services.GetService<InteractiveItemsService>();
 		var player = Game.Services.GetService<Player>();
 
-		isPCNear = player.Position.X is >= 510 and <= 650 && player.Position.Y is >= 490 and <= 611;
-		isPCGreenNear = player.Position.X is >= 889 and <= 1098 && player.Position.Y is >= 542 and <= 610;
+		items.GlowElementIfPlayerNear(player);
 	}
 }

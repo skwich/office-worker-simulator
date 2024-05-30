@@ -6,9 +6,9 @@ public static class GraphicsExtension
 {
     public static GraphicsDeviceManager InitializeDisplayMode(this GraphicsDeviceManager graphics)
     {
-        // var currentDisplayMode = graphics.GraphicsDevice.DisplayMode;
         graphics.PreferredBackBufferWidth = 1280;
         graphics.PreferredBackBufferHeight = 720;
+        graphics.IsFullScreen = true;
         return graphics;
     }
 }

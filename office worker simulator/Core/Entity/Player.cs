@@ -29,22 +29,22 @@ public class Player
 		if (IsRestrictedArea(position))
 		{
 			var delta = position - Position;
-
+		
 			if (delta.X != 0 && delta.Y != 0)
 			{
 				var newPos = position;
 				var lastPos = newPos;
-
+		
 				while (IsRestrictedArea(newPos))
 				{
 					newPos = !IsRestrictedArea(new Vector2(Position.X + delta.X, Position.Y)) ? 
 						new Vector2(Position.X + delta.X, Position.Y) :
 						new Vector2(Position.X, Position.Y + delta.Y);
-
+				
 					delta = lastPos - newPos;
 					lastPos = newPos;
 				}
-
+		
 				Position = newPos;
 			}
 			

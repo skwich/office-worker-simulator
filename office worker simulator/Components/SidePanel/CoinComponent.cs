@@ -56,7 +56,7 @@ public class CoinComponent : DrawableGameComponent
 
         // DEBUG
         if (state.IsKeyDown(Keys.F1))
-            coinService.AddCoins(1000);
+            coinService.AddCoins(1);
 
         // Пассивный доход каждую секунду
         if (gameTime.TotalGameTime.TotalSeconds - lastUpdateTime >= 1)

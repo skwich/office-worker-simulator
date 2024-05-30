@@ -7,11 +7,20 @@
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/idle1.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/idle2.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/idle3.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_down1.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_down2.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_down3.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_left1.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_left2.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_left3.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_right1.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_right2.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_right3.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_up1.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_up2.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/Entity/Player/run_up3.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/cake.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/ExclamationMarks/exclamationMarkCake.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/ExclamationMarks/exclamationMarkGlobe.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/ExclamationMarks/exclamationMarkPC.png</File>
-    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/ExclamationMarks/exclamationMarkSwitcher.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/exclamationMark.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/globe.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedCake.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/glowedGlobe.png</File>
@@ -22,6 +31,10 @@
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/pcGreen.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/InteractiveElements/switcher.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MainGame/Room.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/message.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MiniGames/minigame field.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MiniGames/minigames background.png</File>
+    <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/MiniGames/text.spritefont</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 1.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 2.png</File>
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/button 3.png</File>
@@ -34,6 +47,19 @@
     <File>D:/urfu/c#/office worker simulator/office worker simulator/Content/SidePanel/text menu and coin.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using office_worker_simulator.Core.Room;
 
 namespace office_worker_simulator.Components.Room;
 
@@ -14,10 +15,6 @@ public class RoomComponent : DrawableGameComponent
     private Texture2D glowedSwitcherTexture;
     private Texture2D glowedGlobeTexture;
     private Texture2D glowedCakeTexture;
-    
-    private bool isSwitcherNear;
-    private bool isGlobeNear;
-    private bool isCakeNear;
 
     public RoomComponent(Game game) : base(game)
     {
@@ -38,6 +35,8 @@ public class RoomComponent : DrawableGameComponent
 
     public override void Draw(GameTime gameTime)
     {
+        var items = Game.Services.GetService<InteractiveItems>();
+        
         spriteBatch.Begin();
         
         spriteBatch.Draw(
@@ -48,22 +47,22 @@ public class RoomComponent : DrawableGameComponent
         );
         
         spriteBatch.Draw(
-            isSwitcherNear ? glowedSwitcherTexture : switcherTexture,
-            isSwitcherNear ? new Vector2(539,110) : new Vector2(542, 113),
+            items.IsSwitcherNear ? glowedSwitcherTexture : switcherTexture,
+            items.IsSwitcherNear ? new Vector2(539,110) : new Vector2(542, 113),
             null,
             Color.White
         );
 
         spriteBatch.Draw(
-            isGlobeNear ? glowedGlobeTexture : globeTexture,
-            isGlobeNear ? new Vector2(860,195) : new Vector2(863, 198),
+            items.IsGlobeNear ? glowedGlobeTexture : globeTexture,
+            items.IsGlobeNear ? new Vector2(860,195) : new Vector2(863, 198),
             null,
             Color.White
         );
 
         spriteBatch.Draw(
-            isCakeNear ? glowedCakeTexture : cakeTexture,
-            isCakeNear ? new Vector2(1130,364) : new Vector2(1133, 367),
+            items.IsCakeNear ? glowedCakeTexture : cakeTexture,
+            items.IsCakeNear ? new Vector2(1130,364) : new Vector2(1133, 367),
             null,
             Color.White
         );
